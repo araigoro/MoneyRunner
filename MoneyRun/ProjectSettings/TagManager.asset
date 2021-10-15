@@ -3,7 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - 100dol
+  - 400dol
+  - 1000dol
+  - 1dol
+  - quater
+  - penny
+  - police
+  - chicken
+  - sportscar
+  - car
+  - policecar
+  - bicycle
+  - plane
+  - rateup
+  - ratedown
+  - tax
+  - jewelry
   layers:
   - Default
   - TransparentFX
