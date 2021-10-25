@@ -223,7 +223,23 @@ namespace UnityChan
 			//フリック対応
 			if (isMove) Move();
 			else Flick();
-			
+
+			//unityroom用キャラクター操作
+			if(Input.GetKeyDown(KeyCode.RightArrow))
+            {
+				Direction = "right";
+				isMove = true;
+			}
+			if (Input.GetKeyDown(KeyCode.LeftArrow))
+			{
+				Direction = "left";
+				isMove = true;
+			}
+			if (Input.GetKeyDown(KeyCode.Space))
+			{
+				Direction = "up";
+				isMove = true;
+			}
 
 			//移動後接地していたらY方向の速度をリセット
 			if (unitychan.isGrounded&&Direction!="up")
